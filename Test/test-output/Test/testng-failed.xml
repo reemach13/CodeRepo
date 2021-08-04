@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test]">
+  <test name="Test Case 1">
+    <classes>
+      <class name="com.modules.test.TC01_Login"/>
+    </classes>
+  </test> <!-- Test Case 1 -->
+  <test name="Test Case 1(failed)">
+    <classes>
+      <class name="com.modules.test.TC01_Login">
+        <methods>
+          <include name="closeReports"/>
+          <include name="login"/>
+          <include name="setupReports"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.modules.test.TC01_Login -->
+    </classes>
+  </test> <!-- Test Case 1(failed) -->
+</suite> <!-- Failed suite [Test] -->
